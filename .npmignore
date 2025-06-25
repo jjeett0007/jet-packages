@@ -1,0 +1,36 @@
+/node_modules
+
+./node_modules
+/src
+./src
+src
+
+
+# Ignore source code (you only publish build output)
+src/
+tests/
+__tests__/
+*.test.ts
+*.spec.ts
+*.test.tsx
+*.spec.tsx
+
+# Ignore config files
+tsconfig.json
+rollup.config.js
+vite.config.ts
+webpack.config.js
+jest.config.js
+
+# Ignore node_modules (npm automatically ignores this, but safe to add)
+node_modules/
+
+# Ignore editor and OS files
+.vscode/
+.DS_Store
+*.log
+
+# Ignore build scripts, docs, and other non-essential files
+scripts/
+docs/
+*.md
